@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Today App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1>Focus on <span>Today</span></h1>
+    <div id="container">
+      <div id="heading-img">
+        <h2>Today</h2>
+        <img src="Sun.svg" alt="" />
+      </div>
+      <div id="p-range">
+        <p>Raise the bar by completing your goals!</p>
+        <div id="range">
+          <div id="range-value"><span></span></div>
+        </div>
+        <p id="error" class="hide">Please set all the 3 goals!</p>
+      </div>
+      <div id="all-boxes">
+        <div class="box-container">
+          <div class="checkbox" ><img src="check-icon.svg" alt="" /></div>
+          <input id="first" type="text" placeholder="Add new goal..." />
+        </div>
+        <div class="box-container">
+          <div class="checkbox" ><img src="check-icon.svg" alt="" /></div>
+          <input id="second" type="text" placeholder="Add new goal..." />
+        </div>
+        <div class="box-container">
+          <div class="checkbox" ><img src="check-icon.svg" alt="" /></div>
+          <input id="third" type="text" placeholder="Add new goal..." />
+        </div>
+      </div>
+      <p id="text">“Move one step ahead, today!”</p>
+      <p id="copy">Made with ❤️ by Ashraf Rajput</p>
+    </div>
+  </body>
+</html>
